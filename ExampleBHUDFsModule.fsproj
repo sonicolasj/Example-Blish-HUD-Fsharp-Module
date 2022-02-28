@@ -1,0 +1,85 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework> 
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <WarnOn>3390;$(WarnOn)</WarnOn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\atlas\ui-atlas.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\atlas\ui.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\common\button-states.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\common\error.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\common\menomonia.ttf" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\common\menomonia.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\effects\alphamask.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\effects\distancedissolve.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\effects\glow.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\effects\gw2master.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\effects\marker.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\effects\menuitem.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\effects\menuitem2.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\effects\silhouette.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\effects\trail.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\consolas-10-bold.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\consolas-10.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\consolas-12-bold.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\consolas-12.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\consolas-8-bold.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\consolas-8.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia-8-regular_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-11-italic.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-11-italic_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-11-regular.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-11-regular_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-12-italic.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-12-italic_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-12-regular.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-12-regular_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-14-italic.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-14-italic_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-14-regular.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-14-regular_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-16-italic.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-16-italic_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-16-regular.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-16-regular_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-18-italic.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-18-italic_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-18-regular.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-18-regular_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-20-regular.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-20-regular_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-22-regular.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-22-regular_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-24-regular.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-24-regular_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-32-regular.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-32-regular_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-32-regular_1.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-34-regular.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-34-regular_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-34-regular_1.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-36-regular.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-36-regular_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-36-regular_1.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-8-italic.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-8-italic_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-8-regular.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\menomonia\menomonia-8-regular_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\newkrytan\newkrytan-12-regular.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\newkrytan\newkrytan-12-regular_0.xnb" />
+    <Content Remove="C:\Users\Nicolas\.nuget\packages\blishhud\0.11.6\contentFiles\any\net472\Content\bin\Windows\Content\fonts\newkrytan\newkrytan-12-regular_1.xnb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ref\603447.png" />
+    <Content Include="manifest.json" />
+    <Compile Include="ExampleBHUDFsModule.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BlishHUD" Version="0.11.6" />
+    <PackageReference Include="SemanticVersioning" Version="1.2.2" />
+  </ItemGroup>
+</Project>

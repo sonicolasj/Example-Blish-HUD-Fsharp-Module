@@ -1,0 +1,12 @@
+﻿{
+    "name": "ExampleBHUDFsModule",
+    "version": "0.1.0",
+    "namespace": "ExampleBHUDFsModule",
+    "package": "ExampleBHUDFsModule.dll",
+    "manifest_version": 1,
+
+    "description": "Test",
+    "dependencies": {
+        "bh.blishhud": ">=0.5.2"
+    }
+}

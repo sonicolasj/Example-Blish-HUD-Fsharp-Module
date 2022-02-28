@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ExampleBHUDFsModule": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\Nicolas\\Projects\\Blish-HUD\\Blish HUD\\bin\\x64\\Debug\\net472\\Blish HUD.exe",
+      "commandLineArgs": "--debug --module \"C:\\Users\\Nicolas\\Projects\\ExampleBHUDFsModule\\bin\\Debug\\net48\\ExampleBHUDFsModule.bhm\""
+    }
+  }
+}
